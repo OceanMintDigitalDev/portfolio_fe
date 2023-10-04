@@ -9,7 +9,10 @@
     </header>
     <main class="container mx-auto">
       <NuxtPage/>
+     
     </main>
+    <UNotifications />
+
     <!-- <Icon name="line-md:document-code" color="black" size="5rem" />
     <div class="">abc</div> -->
   </div>
