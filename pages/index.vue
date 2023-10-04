@@ -30,5 +30,5 @@
     font-size: 10rem
 } */
 .text-shadow {
-    text-shadow: 0px 4px green;
+    text-shadow: 0px 2px green;
 }</style>
