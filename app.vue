@@ -1,5 +1,16 @@
+<script setup>
+
+</script>
 <template>
   <div>
-    <NuxtWelcome />
+    <header class="sticky top-0 z-10">
+      <Navbar></Navbar>
+
+    </header>
+    <main class="container mx-auto">
+      <NuxtPage/>
+    </main>
+    <!-- <Icon name="line-md:document-code" color="black" size="5rem" />
+    <div class="">abc</div> -->
   </div>
 </template>
