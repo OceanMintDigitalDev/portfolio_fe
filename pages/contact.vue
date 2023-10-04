@@ -23,6 +23,8 @@
             <UButton type="button" @click="openToast">toast</Ubutton>
                 
     </form>
+  
+
 </template>
 
 <script>
@@ -45,7 +47,7 @@
             },
 
             openToast(){
-                this.toast.add({ title: 'Hello world!' })
+                this.toast.add({ title: 'Hello world!', })
             }
         }
     }
