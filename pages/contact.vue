@@ -13,8 +13,13 @@
                     <!-- // Hidden input to check for bots -->
                     <input type="hidden" name="form-name" value="contact" />
                     <div class="my-3">
-                        <label for="name">Name:</label>
-                        <UInput name="first" id="first" v-model="form.name" />
+                        <label for="name">First Name:</label>
+                        <UInput name="first_name" id="first_name" v-model="form.name" />
+                        <!-- <input name="last" type="text"> -->
+                    </div>
+                    <div class="my-3">
+                        <label for="name">Last Name:</label>
+                        <UInput name="last_name" id="last_name" v-model="form.name" />
                         <!-- <input name="last" type="text"> -->
                     </div>
                     <div class="my-3">
@@ -26,7 +31,6 @@
                         <!-- <textarea name="message" required></textarea> -->
                         <label for="message">Message:</label>
                         <UTextarea name="message" id="message" v-model="form.comment" />
-
                     </div>
                     <div class="grid grid-cols-2 gap-5 text-center justify-center">
                         <UButton block type="submit" value="Send message">Send</Ubutton>
