@@ -5,10 +5,10 @@ console.log(appConfig.ui)
 </script>
 <template>
   <div>
-    <!-- <header class="sticky top-0 z-10">
+    <header class="sticky top-0 z-10">
       <Navbar></Navbar>
       
-    </header> -->
+    </header>
     <main class="container mx-auto">
       <NuxtPage/>
       
@@ -18,5 +18,5 @@ console.log(appConfig.ui)
     <div class="">abc</div> -->
   </div>
   <UNotifications />
-  {{ appConfig.ui.notifications.position }}
+  <!-- {{ appConfig.ui.notifications.position }} -->
 </template>

@@ -1,21 +1,10 @@
 
-import { UIcon } from '#ui-colors/components';
-
-import { Icon } from '#ui-colors/components';
-
-import { Icon } from '#ui-colors/components';
-
-import { Icon } from '#ui-colors/components';
-
-import { _divideColor } from '#tailwind-config/theme';
-
-import { _divideColor } from '#tailwind-config/theme';
 <script setup>
 const isOpen = ref(false)
 </script>
 
 <template>
-    <div class="flex dark:bg-transparent items-center justify-between shadow-emerald-200 shadow-lg">
+    <div class="flex dark:bg-slate-950 items-center justify-between shadow-emerald-200 shadow-lg">
         <div class="sm:mx-4 mx-2">
             <h1 class="text-2xl">OceanMintDigital</h1>
         </div>
@@ -23,6 +12,7 @@ const isOpen = ref(false)
             <div class="hidden sm:block space-x-4">
                 <NuxtLink to="/">Home</NuxtLink>
                 <NuxtLink to="about">About</NuxtLink>
+                <NuxtLink to="contact">Contact Us</NuxtLink>
             </div>
             
             <div class="block sm:hidden">
@@ -42,6 +32,7 @@ const isOpen = ref(false)
                     <ul class="space-y-6">
                         <li><NuxtLink to="/" @click="isOpen = false">Home</NuxtLink></li>
                         <li><NuxtLink to="about"  @click="isOpen = false">About</NuxtLink></li>
+                        <li><NuxtLink to="contact"  @click="isOpen = false">Contact Us</NuxtLink></li>
                     </ul>
                     <template #footer>
                         <!-- Content -->
