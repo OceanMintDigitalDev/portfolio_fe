@@ -8,7 +8,7 @@
                 <p>Please fill out the form below to get in touch with us. We'll respond to your inquiry as soon as possible.</p>
             </div>
             <UCard>
-                <form @submit.prevent="onSubmit" name="contact" action="/contact" method="post" netlify
+                <form name="contact" action="/contact" method="post" netlify
                     netlify-honeypot="bot-field">
                     <!-- <form @submit="onSubmit()"> -->
                     <!-- // Hidden input to check for bots -->
@@ -29,6 +29,7 @@
 
                     </div>
                     <div class="grid grid-cols-2 gap-5 text-center justify-center">
+                        <button type="submit">submit</button>
                         <UButton block type="submit" value="Send message">Send</Ubutton>
                         <UButton block type="button" @click="openToast">toast</Ubutton>
                     </div>
