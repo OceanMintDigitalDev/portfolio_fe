@@ -18,7 +18,7 @@
                         <!-- <input name="last" type="text"> -->
                     </div>
                     <div class="my-3">
-                        <label for="name">Last Name:</label>
+                        <label for="Last name">Last Name:</label>
                         <UInput name="last_name" id="last_name" v-model="form.last_name" />
                         <!-- <input name="last" type="text"> -->
                     </div>
@@ -27,10 +27,15 @@
                         <label for="email">Email:</label>
                         <UInput name="email" id="email" v-model="form.email" />
                     </div>
-                    <!-- <div class="my-3">
-                        <label for="message">Message:</label>
-                        <UTextarea name="message" id="message" v-model="form.comment" />
-                    </div> -->
+                    <div class="my-3">
+                        <!-- <input type="email" name="email" required /> -->
+                        <label for="phone">Phone Number:</label>
+                        <UInput name="phone" id="phone" v-model="form.phone_num" />
+                    </div>
+                    <div class="my-3">
+                        <label for="comment">Comment:</label>
+                        <UTextarea name="comment" id="comment" v-model="form.comment" />
+                    </div>
                     <div class="grid grid-cols-2 gap-5 text-center justify-center">
                         <UButton block type="submit" value="Send message">Send</Ubutton>
                         <UButton block type="button" @click="openToast">toast</Ubutton>
