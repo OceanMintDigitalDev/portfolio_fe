@@ -16,16 +16,19 @@
                     <div class="my-3">
                         <label for="name">Name:</label>
                         <UInput v-model="form.name" />
+                        <input type="text">
                     </div>
                     <div class="my-3">
                         <!-- <input type="email" name="email" required /> -->
                         <label for="email">Email:</label>
                         <UInput v-model="form.email" />
+                        <input type="email">
                     </div>
                     <div class="my-3">
                         <!-- <textarea name="message" required></textarea> -->
                         <label for="message">Message:</label>
                         <UTextarea v-model="form.comment" />
+                        <input type="text">
 
                     </div>
                     <div class="grid grid-cols-2 gap-5 text-center justify-center">
