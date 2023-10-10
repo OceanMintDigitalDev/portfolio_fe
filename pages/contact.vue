@@ -14,8 +14,8 @@
                     <input type="hidden" name="contact" value="contact" />
                     <div class="my-3">
                         <label for="name">Name:</label>
-                        <UInput v-model="form.name" />
-                        <input type="text">
+                        <UInput name="first" v-model="form.name" />
+                        <input name="last" type="text">
                     </div>
                     <div class="my-3">
                         <!-- <input type="email" name="email" required /> -->
