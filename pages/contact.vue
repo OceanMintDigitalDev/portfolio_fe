@@ -19,7 +19,7 @@
                     </div>
                     <div class="my-3">
                         <label for="name">Last Name:</label>
-                        <UInput name="last_name" id="last_name" v-model="form.name" />
+                        <UInput name="last_name" id="last_name" v-model="form.last_name" />
                         <!-- <input name="last" type="text"> -->
                     </div>
                     <div class="my-3">
@@ -27,11 +27,10 @@
                         <label for="email">Email:</label>
                         <UInput name="email" id="email" v-model="form.email" />
                     </div>
-                    <div class="my-3">
-                        <!-- <textarea name="message" required></textarea> -->
+                    <!-- <div class="my-3">
                         <label for="message">Message:</label>
                         <UTextarea name="message" id="message" v-model="form.comment" />
-                    </div>
+                    </div> -->
                     <div class="grid grid-cols-2 gap-5 text-center justify-center">
                         <UButton block type="submit" value="Send message">Send</Ubutton>
                         <UButton block type="button" @click="openToast">toast</Ubutton>
@@ -52,6 +51,7 @@ export default {
         router: useRouter(),
         form: {
             name: '',
+            last_name: '',
             email: '',
             phone_num: '',
             comment: ''
