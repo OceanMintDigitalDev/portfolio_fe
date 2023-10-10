@@ -22,6 +22,19 @@
             </div>
         </div>
     </div>
+    <ClientOnly> <Particles class="absolute inset-0 pointer-events-none" :quantity="500" /></ClientOnly>
+    <section>
+        <div class="mt-20 mb-6">
+            <h1 class="text-3xl">What we offer</h1>
+        </div>
+        <div class="mb-20">
+            <ServiceCard/>
+        </div>
+    </section>
+
+  
+   
+
    
 </template>
 
