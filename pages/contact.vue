@@ -12,7 +12,7 @@
                     netlify-honeypot="bot-field">
                     <!-- <form @submit="onSubmit()"> -->
                     <!-- // Hidden input to check for bots -->
-                    <input type="hidden" name="form-name" value="contact" />
+                    <input type="hidden" name="contact" value="contact" />
                     <div class="my-3">
                         <label for="name">Name:</label>
                         <UInput v-model="form.name" />
