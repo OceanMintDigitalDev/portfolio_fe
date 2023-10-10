@@ -13,6 +13,7 @@ const isOpen = ref(false)
                 <NuxtLink to="/">Home</NuxtLink>
                 <NuxtLink to="about">About</NuxtLink>
                 <NuxtLink to="contact">Contact Us</NuxtLink>
+                <NuxtLink to="form">form</NuxtLink>
             </div>
             
             <div class="block sm:hidden">

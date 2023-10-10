@@ -11,27 +11,24 @@
                 <form name="contact" action="/contact" data-netlify="true" data-netlify-honeypot="bot-field" method="POST">
                     <!-- <form @submit="onSubmit()"> -->
                     <!-- // Hidden input to check for bots -->
-                    <input type="hidden" name="contact" value="contact" />
+                    <input type="hidden" name="form-name" value="contact" />
                     <div class="my-3">
                         <label for="name">Name:</label>
-                        <UInput name="first" v-model="form.name" />
-                        <input name="last" type="text">
+                        <UInput name="first" id="first" v-model="form.name" />
+                        <!-- <input name="last" type="text"> -->
                     </div>
                     <div class="my-3">
                         <!-- <input type="email" name="email" required /> -->
                         <label for="email">Email:</label>
-                        <UInput v-model="form.email" />
-                        <input type="email">
+                        <UInput name="email" id="email" v-model="form.email" />
                     </div>
                     <div class="my-3">
                         <!-- <textarea name="message" required></textarea> -->
                         <label for="message">Message:</label>
-                        <UTextarea v-model="form.comment" />
-                        <input type="text">
+                        <UTextarea name="message" id="message" v-model="form.comment" />
 
                     </div>
                     <div class="grid grid-cols-2 gap-5 text-center justify-center">
-                        <button type="submit">submit</button>
                         <UButton block type="submit" value="Send message">Send</Ubutton>
                         <UButton block type="button" @click="openToast">toast</Ubutton>
                     </div>
