@@ -8,8 +8,7 @@
                 <p>Please fill out the form below to get in touch with us. We'll respond to your inquiry as soon as possible.</p>
             </div>
             <UCard>
-                <form name="contact" action="/contact" method="post" netlify
-                    netlify-honeypot="bot-field">
+                <form name="contact" action="/contact" data-netlify="true" data-netlify-honeypot="bot-field" method="POST">
                     <!-- <form @submit="onSubmit()"> -->
                     <!-- // Hidden input to check for bots -->
                     <input type="hidden" name="contact" value="contact" />
