@@ -25,7 +25,7 @@
                     <div class="my-3">
                         <!-- <input type="email" name="email" required /> -->
                         <label for="email">Email:</label>
-                        <UInput name="email" id="email" v-model="form.email" />
+                        <UInput type="email" name="email" id="email" v-model="form.email" />
                     </div>
                     <div class="my-3">
                         <!-- <input type="email" name="email" required /> -->
