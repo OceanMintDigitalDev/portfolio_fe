@@ -17,7 +17,7 @@
                     </div>
                     <!-- Text -->
                     <div class="grow mb-5">
-                        <h2 class="text-xl text-slate-200 font-bold mb-1">Amazing Integration</h2>
+                        <h2 class="text-xl text-slate-200 font-bold mb-1">Landing Page Implementation</h2>
                         <p class="text-sm text-slate-500">Quickly apply filters to refine your issues lists and create
                             custom views.</p>
                     </div>
